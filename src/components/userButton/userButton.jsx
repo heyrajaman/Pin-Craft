@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Image from "../image/image";
 
 const UserButton = () => {
   const [open, setOpen] = useState(false);
@@ -6,12 +7,12 @@ const UserButton = () => {
 
   return currentUser ? (
     <div className="relative hidden max-[475px]:hidden sm:flex items-center gap-4">
-      <img
+      <Image
         src="/general/noAvatar.png"
         alt="user"
         className="w-10 h-10 object-cover rounded-full"
       />
-      <img
+      <Image
         onClick={() => setOpen((prev) => !prev)}
         src="/general/arrow.svg"
         alt="user"
