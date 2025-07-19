@@ -42,7 +42,7 @@
     "browserslist": "^4.25.1",
     "caniuse-lite": "^1.0.30001727",
     "electron-to-chromium": "^1.5.182",
-    "emoji-picker-react": "^4.13.1",
+    "emoji-picker-react": "^4.13.2",
     "escalade": "^3.2.0",
     "fraction.js": "^4.3.7",
     "imagekitio-react": "^4.3.0",
